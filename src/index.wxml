@@ -1,0 +1,8 @@
+<view bindtap="onOpen">打开</view>
+
+<picker-date-time show="{{show}}"
+         bindchange="onChange" 
+         bindconfirm="onconfirm"
+         bindpickstart="onStart"
+         bindpicksend="onEnd"
+         ></picker-date-time>
